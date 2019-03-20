@@ -69,8 +69,8 @@ class LinkedList:
             z = z.next
 
 obj1 = LinkedList()
+[obj1.add_node(int(input())) for i in range(5)]
 print("Inserted elements:")
-[obj1.add_node() for i in range(5)]
 obj1.valu()
 print("After deleting given value:")
 obj1.delete_node(1)
